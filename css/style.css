@@ -1,0 +1,45 @@
+/* Start Main Rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    padding:0;
+    margin:0;
+    background-color: papayawhip;
+}
+/* End Main Rules */
+
+/* Start Design My Apps */
+.fill {
+    position: relative;
+    background-image: url(../images/pexels-photo-39803.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+}
+.empty {
+    display: inline-block;
+    margin: 18px;
+    padding: 8px;
+    background-color: black;
+    border: 2px dashed #f2395a;
+    width: 20%;
+    height: 300px; 
+}
+.hold {
+    border: 2px solid red;
+}
+.hovered {
+    background: aqua;
+    border: 2px dashed red;
+}
+.invisible {
+    display: none;
+}
+/* End Design My Apps */
